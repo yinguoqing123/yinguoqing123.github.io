@@ -14,7 +14,7 @@ author: YGQ
  
  
  
- ##兼容HTML格式
+ ## 兼容HTML格式
  ```js
  public static void main()
  {
@@ -22,9 +22,9 @@ author: YGQ
  ```
  html区块元素
  HTML区段元素
- -skldfjklsdfj
- -dfjaskldjf
- -fjklasdjfklsdf
+ - skldfjklsdfj
+ - dfjaskldjf
+ - fjklasdjfklsdf
  
  fsdfsdfsdfgg是我而发
  sjdfklsdf
