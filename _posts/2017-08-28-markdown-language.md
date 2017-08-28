@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "markdown语法规则"
+title:  "markdown语法"
 categories: markdown
 tags:  markdown
 author: YGQ
@@ -37,7 +37,7 @@ HTML 的区段（行内）标签如 <span>、<cite>、<del> 可以在 Markdown �
 
 ### 段落与换行
 
-可以使用HTML中的<br/>标签
+可以使用HTML中的<br/>标签，如果你确实想要依赖 Markdown 来插入 <br /> 标签的话，在插入处先按入两个以上的空格然后回车。
  
 
  
