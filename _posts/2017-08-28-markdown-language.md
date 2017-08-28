@@ -9,7 +9,7 @@ author: YGQ
 * content
 {:toc}
 
-简单介绍markdown的语法，具体可以参考[http://www.appinn.com/markdown/#link](http://www.appinn.com/markdown/#link)
+简单介绍markdow4n的语法，具体可以参考[http://www.appinn.com/markdown/#link](http://www.appinn.com/markdown/#link)
  
  
  
