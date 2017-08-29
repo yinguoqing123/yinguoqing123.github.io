@@ -7,7 +7,7 @@ author: YGQ
 ----
 
 * content
-{：toc}
+{:toc}
 
 简单见风刀霜剑阿卡丽大家立方
 
