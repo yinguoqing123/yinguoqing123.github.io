@@ -13,7 +13,7 @@ url: "https://yinmaybe.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
-encoding:utf-8
+encoding: utf-8
 # other links
 #twitter_username: gaohaoyang126
 #facebook_username: gaohaoyang.water
