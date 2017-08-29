@@ -1,10 +1,10 @@
 ---
-layout:  post
+layout: post
 title:  "markdown 语法"
-categories:  markdown
+categories: markdown
 tags:  markdown
 author: YGQ
---
+---
 
 * content
 {:toc}
