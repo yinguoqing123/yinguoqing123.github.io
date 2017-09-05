@@ -49,7 +49,7 @@ $$
 5. 下取整：使用\\lfloor和\\rfloor表示。如\\lfloor x \\rfloor：$\\lfloor x \\rfloor$
 6. 不可见括号：使用\.表示
 
-需要注意的是，原始符号并不会随着公式大小缩放，可以使用\\left(\.\.\.\\right)来自适应地调整括号大小。如下
+需要注意的是，*原始符号*并不会随着公式大小缩放，可以使用\\left(\.\.\.\\right)来自适应地调整括号大小。如下
 
 $$
 \lbrace\sum_{i=0}^{100} i^2 = \frac{(n^2+n)(2n+2)}{6}\rbrace\tag{1.1}
@@ -86,9 +86,7 @@ $$
 \mathscr{ABCDEFGHIJKLMNOPQRSTUVWXYZ}
 $$
 
-### 
-
-特殊函数和符号
+###  特殊函数和符号
 
 1. 常见的三角函数，如$\\sin (7x)$ ,$\\arctan_x$ ,$\\lim_{1\\to\\infty}$
 2. 比较运算符：$\\lt$,$\\le$,$\\gt$,$\\ge$,可以在这些运算符前面加上\\not,如\\not\\lt:$\\not\\lt$
@@ -259,6 +257,14 @@ $$
 ### 补充
 
 向量、矩阵：\mathrm{x, y}：$\mathrm{x, y}$ 
+
+实值x：$x$
+
+偏导数：\partial f:$\partial f$
+
+双竖线：\Vert $\Vert$,\parallel:$\parallel$
+
+
 
 
 

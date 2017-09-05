@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "markdown语法"
-categories: markdown
-tags:  markdown
+categories: Markdown
+tags:  Markdown
 author: YGQ
 ---
 
@@ -164,6 +164,14 @@ Here is an example of AppleScript:
     end tell
 ```
 
+效果：
+
+Here is an example of AppleScript:
+
+    tell application "Foo"
+		beep
+    end tell
+
 ### 分割线
 
 代码：
@@ -298,4 +306,4 @@ _   底线
 
 GFM以及在md文件中插入数学公式，[MathJax渲染Latex公式参考博客](http://www.cnblogs.com/linxd/p/4955530.html)
 
-仅输入一个`\`,输出为\;输入`\\`,输出为\\,输出效果不一样。
+仅输入一个`\`,输出为\;输入`\\`,输出为\\,输出效果一样。
