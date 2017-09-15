@@ -589,12 +589,62 @@ Python内的built-in方法实际上是用C语言实现的，当使用built-in方
 
 ```python
 dir(object)
+dir(type)
 ```
 输出：
 
-['\_\_class\_\_', '\_\_delattr\_\_', '\_\_dir\_\_', '\_\_doc\_\_', '\_\_eq\_\_', '\_\_format\_\_', '\_\_ge\_\_', 
-'\_\_getattribute\_\_', '\_\_gt\_\_', '\_\_hash\_\_', '\_\_init\_\_', '\_\_init_subclass\_\_', '\_\_le\_\_', '\_\_lt\_\_', '\_\_ne\_\_', '\_\_new\_\_', '\_\_reduce\_\_', 
-'\_\_reduce\_ex\_\_', '\_\_repr\_\_', '\_\_setattr\_\_', '\_\_sizeof\_\_', '\_\_str\_\_', '\_\_subclasshook\_\_']
+```python
+['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__']
 
-dir(type)的输出和上面不一样，type和object属于先有鸡还是先有蛋的关系。
+['__abstractmethods__', '__base__', '__bases__', '__basicsize__', '__call__', '__class__', '__delattr__', '__dict__', '__dictoffset__', '__dir__', '__doc__', '__eq__', '__flags__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__instancecheck__', '__itemsize__', '__le__', '__lt__', '__module__', '__mro__', '__name__', '__ne__', '__new__', '__prepare__', '__qualname__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasscheck__', '__subclasses__', '__subclasshook__', '__text_signature__', '__weakrefoffset__', 'mro']
+```
+
+*dir(type)的输出和上面不一样，type和object属于先有鸡还是先有蛋的关系。*
+
+### 改变built-in方法的行为
+
+```python
+class A():
+    def __init__(self, len):
+        self.length = len
+    def __len__(self):
+        return self.length+3  # 改变len()的行为
+
+a = A(7)
+print(len(a))
+```
+
+输出：10
+
+###  `__dict__`方法
+
+`__dict()__`方法：侧重于自定义的属性(包括重写的属性)，假设A为类，a为A的实例，`a.__dict__`和`A.__dict__`是不同的.
+
+示例：
+```python
+class  A():
+    greet = "hello, world"
+    def __init__(self):
+        pass
+
+    def __len__(self):
+        pass
+
+    def haha(self):
+        pass
+
+a = A()
+a.greet1 = "hello, python"
+print(A.__dict__)
+print(a.__dict__)
+```
+
+输出:
+
+```py
+{'__module__': '__main__', 'greet': 'hello, world', '__init__': <function A.__init__ at 0x00000000025789D8>, '__len__': <function A.__len__ at 0x0000000002578A60>, 'haha': <function A.haha at 0x0000000002578EA0>, '__dict__': <attribute '__dict__' of 'A' objects>, '__weakref__': <attribute '__weakref__' of 'A' objects>, '__doc__': None}
+
+{'greet1': 'hello, python'}
+```
+
 

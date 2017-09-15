@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "markdown语法"
+title:  "Markdown语法"
 categories: Markdown
 tags:  Markdown
 author: YGQ
@@ -9,7 +9,7 @@ author: YGQ
 * content
 {:toc}
 
-简单介绍markdown的语法，具体可以参考[http://www.markdown.cn/](http://www.markdown.cn/)。
+简单介绍markdown的语法，具体可以参考[这里](http://www.appinn.com/markdown/#html)。
 
 
 
