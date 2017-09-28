@@ -264,6 +264,10 @@ $$
 
 双竖线：\Vert $\Vert$,\parallel:$\parallel$
 
+limits: $\sum \limits_{i = 1}^n i^2$
+
+网上有latex在线编辑器
+
 
 
 
