@@ -62,6 +62,12 @@ $$
 \nabla f(\mathrm x_k + \alpha_k \mathrm p_k)^T \mathrm p_k \ge \sigma \mathrm g_k^T \mathrm p_k
 $$
 
+加强的Wolf准则:
+
+$$
+\lvert \nabla f(\mathrm x_k + \alpha_k \mathrm p_k)^T \mathrm p_k \rvert \le \lvert \sigma \mathrm g_k^T \mathrm p_k \rvert
+$$
+
 解释为可接受点处的切线斜率大于等于才初始斜率的$\alpha$倍。
 
 函数$min f_\alpha(\mathrm x_k+\alpha \mathrm p_k)$对$\alpha\$求导结果：$\frac{\partial f}{\partial \alpha}=\frac{\partial f}{\partial (\mathrm x_k + \alpha \mathrm p_k)} \frac{\partial (\mathrm x_k + \alpha \mathrm p_k)}{\mathrm x_k}$,即$\nabla f(\mathrm x_k + \alpha_k \mathrm p_k)^T \mathrm p_k$

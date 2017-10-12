@@ -37,7 +37,7 @@ mathjax: true
 
 阻尼牛顿法:
 
-牛顿法的一个缺点是一次迭代后，可能函数值上升了。对此进行改进，对$\mathrm x_k$迭代时，以$\mathrm p_k$为搜索方向进行一维搜索，求步长$\alpha_k$, 且用$\mathrm M_k$代替$\mathrm G_k$。
+牛顿法的一个缺点是当目标函数是非二次函数时，一次迭代后，可能函数值上升了。对此进行改进，对$\mathrm x_k$迭代时，以$\mathrm p_k$为搜索方向进行一维搜索，求步长$\alpha_k$, 且用$\mathrm M_k$代替$\mathrm G_k$。
 
 ## 共轭方向法
 
@@ -144,5 +144,7 @@ $$
 
 ## 补充
 
-在*Scipy.optimize*模块中有多种算法的实现。
+* 在*Scipy.optimize*模块中有多种算法的实现。
+* [一篇很好的参考文章](http://www.cnblogs.com/ljy2013/p/5129294.html)
+
 
