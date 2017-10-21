@@ -27,9 +27,11 @@ type: page
 * [<<机器学习>>(周志华)参考答案](http://blog.csdn.net/icefire_tyh/article/details/52064910)
 * [斯坦福吴恩达笔记](http://cs229.stanford.edu/notes/)
 
+
 ## 优化算法
 
 * [斯坦福大学的一个优化库](http://web.stanford.edu/group/SOL/index.html)
+* LIBSVM,LINEARLIB
 
 ## Comments
 
