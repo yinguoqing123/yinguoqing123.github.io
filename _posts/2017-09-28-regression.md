@@ -60,9 +60,9 @@ mathjax: true
 定理：
 
 * 齐次方程组$A \mathrm x = 0$的通解为$\mathrm x = (I^{-1}-A^+ A)Y, Y \in R^n$.
-* 非齐次方程组$A\mathrm x = \mathrm b$是相容方程组的充要条件是$AA^+=\mathrm b$
+* 非齐次方程组$A\mathrm x = \mathrm b$是相容方程组的充要条件是$AA^+b=A\mathrm b$
 * 设非齐次方程组$A\mathrm x = \mathrm b$是相容的，则:
-	* 其通解是:$\mathrm x = A^+ \mathrm b + (\mathrm x = (I^{-1}-A^+ A)Y), Y \in R^n$;
+	* 其通解是:$\mathrm x = A^+ \mathrm b + (I-A^+ A)Y), Y \in R^n$;
 	* 其唯一的极小范数解是：$\mathrm x = A^+ \mathrm b$
 	
 ### 矛盾方程组

@@ -29,8 +29,7 @@ type: page
 
 ## 友情链接
 
-[刘建平](http://www.cnblogs.com/pinard/) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
-
+[刘建平](http://www.cnblogs.com/pinard/) \| [linkin1005](http://blog.csdn.net/linkin1005/article/category/2827587)
 ## Comments
 
 {% include comments.html %}

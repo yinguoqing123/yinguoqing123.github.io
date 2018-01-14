@@ -18,3 +18,6 @@ mathjax: true
 ## 极大似然估计和贝叶斯估计
 
 [贝叶斯估计](http://blog.csdn.net/liu1194397014/article/details/52766760)
+
+## 增强学习
+[马尔科夫决策过程](https://www.cnblogs.com/jinxulin/p/3517377.html)

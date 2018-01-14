@@ -24,6 +24,7 @@ mathjax: true
 * LARS(最小角度回归)，坐标下降，不需要知道梯度，求解Lasso回归，缺点是对噪声非常敏感。[参考1](http://www.cnblogs.com/pinard/p/6018889.html)[参考2](http://statweb.stanford.edu/~tibs/lasso/simple.html)
 * [OMP](http://blog.csdn.net/jbb0523/article/details/45130793),正交匹配追踪，重点在于观测矩阵和变换矩阵如何寻找
 * SMO(Sequential Minimal Optimization),在SVM中用到[参考文章](http://blog.csdn.net/luoshixian099/article/details/51227754)
-* [EM算法](http://www.cnblogs.com/Gabby/p/5344658.html),吉布斯采样，概率图中关键
+* [EM算法](http://www.cnblogs.com/Gabby/p/5344658.html),吉布斯采样，概率图中用于估计
+* 近端梯度下降[PGD](http://blog.csdn.net/lansatiankongxxc/article/details/46386341),解决凸函数但是某些点不可微，也可求解L1正则项的凸优化，[近端梯度下降](http://blog.csdn.net/lanyanchenxi/article/details/50448640)。
 * 遗传算法、粒子群、蚁群优化
 
