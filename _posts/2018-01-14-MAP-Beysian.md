@@ -2,7 +2,7 @@
 layout: post
 title:  最大似然估计和贝叶斯估计
 categories: 机器学习
-tags:  
+tags: 估计
 mathjax: true
 ---
 
@@ -19,7 +19,7 @@ mathjax: true
 
 已知一堆数据，并且知道这堆数据服从某个带参数的概率分布，（比如服从正态分布，$X \sim N(\mu, \sigma^2)$），现在要由这一堆数据估计参数$\mu$,$\sigma^2$，
 
-令$\theta$表示所有参数，(如$\theta = (\mu, \sigma^2)$)，估计准则是$\arg \max_\theta p(D\|\theta)$
+令$\theta$表示所有参数，(如$\theta = (\mu, \sigma^2)$)，估计准则是$\arg \max_\theta p(\theta\|D)$
 
 ## 最大似然估计
 
@@ -72,7 +72,7 @@ $$
 
 式(8)的积分运算是复杂的，所以可以退而求其次，使用最大后验概率估计。
 
-## 最大后验概率分布
+## 最大后验概率估计
 
 其实就是用使后验概率最大的$\theta$值作为$\theta$的具体值，也变成了点估计，注意到(7)中的分子是一个确定的归一化常数。
 
