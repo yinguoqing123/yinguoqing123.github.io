@@ -17,6 +17,9 @@ type: page
 >	想往机器学习方向学习，现阶段很迷茫，因为机器学习方向难度确实大，找不到出路，害怕花了大把的时间仍无作为。
 >                                                                                     --2017年8月29日
 
+>	永往直前，乘风破浪！·
+>                                                                                     --2018年3月9日
+
 ## 联系我
 
 * GitHub：[Gaohaoyang](https://github.com/yinmaybe)
@@ -29,7 +32,7 @@ type: page
 
 ## 友情链接
 
-[刘建平](http://www.cnblogs.com/pinard/) \| [linkin1005](http://blog.csdn.net/linkin1005/article/category/2827587)
+[刘建平](http://www.cnblogs.com/pinard/) \| [linkin1005](http://blog.csdn.net/linkin1005/article/category/2827587) \|[lawlite](http://lawlite.me/)
 ## Comments
 
 {% include comments.html %}
