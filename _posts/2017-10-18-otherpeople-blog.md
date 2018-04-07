@@ -27,6 +27,8 @@ mathjax: true
 
 [MCMC,Gibbs](https://www.cnblogs.com/xbinworld/p/4266146.html)
 
-## CNN网
+## LSTM
 
-[CNN的BP推导](https://www.cnblogs.com/tornadomeet/p/3468450.html)
+[基本结构](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+[BPTT推导](http://blog.csdn.net/u010754290/article/details/47167979)
+
