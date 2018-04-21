@@ -33,6 +33,11 @@ type: page
 * [斯坦福大学的一个优化库](http://web.stanford.edu/group/SOL/index.html)
 * LIBSVM,LINEARLIB
 
+## NLP
+
+* [码农场(CS224N笔记)](http://www.hankcs.com/?s=cs224n)
+* [52nlp](http://www.52nlp.cn/)
+
 ## Comments
 
 {% include comments.html %}
