@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  GoogLenNet
+title:  GoogLeNet
 categories: 经典CNN
 tags:  CV
 mathjax: true
