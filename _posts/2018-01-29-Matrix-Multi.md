@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  矩阵相乘的几种写法
-categories: 数学
+categories: 数学基础
 tags:  矩阵乘法
 mathjax: true
 ---
